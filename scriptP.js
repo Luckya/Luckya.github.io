@@ -8,7 +8,6 @@ animes.forEach((anime)=>{
 
     let div = document.createElement('div')
     div.setAttribute("id", "anime_div")
-    div.setAttribute("onclick",`alert("${anime.description}")`)
 
     let span = document.createElement('span')
     span.setAttribute("class","episode_amount")
